@@ -22,10 +22,15 @@ public class PersonService {
     }
     */
 
+    /*
     public PersonService(@Qualifier("fakeDao") PersonDAO personDAO) {
         this.personDAO = personDAO;
     }
+    */
 
+    public PersonService(@Qualifier("PostgreSQL") PersonDAO personDAO) {
+        this.personDAO = personDAO;
+    }
 
     public int addPerson(Person person){
         return personDAO.insertPerson(person);
