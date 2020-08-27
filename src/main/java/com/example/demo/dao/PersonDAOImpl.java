@@ -21,7 +21,13 @@ public class PersonDAOImpl implements PersonDAO {
 
     @Override
     public int insertPerson(UUID id, Person person) {
-        return 0;
+
+        final String sql = "INSERT INTO person (id, firstname, lastname, email, password) VALUES(?, ?, ?, ?, ?)";
+
+        return jdbcTemplate.update(sql, id, person.getFirstName(), person.getLastName(),
+                                        person.getEmail(), person.getPassword());
+
+        //return 1;
     }
 
     @Override
