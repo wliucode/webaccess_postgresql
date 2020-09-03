@@ -2,7 +2,7 @@
 Create a REST API with Spring Boot 2
 
 # Requirement
-We need to create a simple REST API to store user data (e.g. FirstName, LastName, Email, and Password) to database (e.g. PostgreSQL) with that API so can create and get users information (update and delete is optional).
+We need to create a simple REST API to store user data (e.g. FirstName, LastName, Email, and Password) to database (e.g. PostgreSQL) with that API so can create, get and update users information (delete is optional).
 
 # Solution 
 1. Create the Spring Boot project using IntelliJ IDEA Ultimate Edition. 
