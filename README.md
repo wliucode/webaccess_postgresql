@@ -40,8 +40,9 @@ We need to create a simple REST API to store user data (e.g. FirstName, LastName
 		6.3.3 @PostMapping for addPerson(..)
 7. Create Unit Testing for API Requests and Run the Unit Testing (TBD)
 8. Build and Run the project
+
     8.1 Build: maven >> install
-	8.2 Run: The app will start running at http://localhost:8080
+    8.2 Run: The app will start running at http://localhost:8080
 9. End-to-End Testing using Postman
 
     9.1 Test Case 1: Add User information to DB
