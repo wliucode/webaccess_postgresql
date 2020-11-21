@@ -42,6 +42,7 @@ We need to create a simple REST API to store user data (e.g. FirstName, LastName
 8. Build and Run the project
 
     8.1 Build: maven >> install
+    
     8.2 Run: The app will start running at http://localhost:8080
 9. End-to-End Testing using Postman
 
