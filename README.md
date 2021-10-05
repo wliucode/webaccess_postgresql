@@ -93,5 +93,6 @@ We need to create a simple REST API to store user data (e.g. FirstName, LastName
     		        "password": "password"
                 }
             ]
+			10. To be improved : Password Encryption.
 			
 [END]
